@@ -1,14 +1,15 @@
 import MenuIconnectLink  from './MenuIconnectLink';
-
+import Link from 'next/link';
 export default function Header() 
 {
 	return(
 	<div>
 		<div className="wrapper">
-	
-			<div className="item"><div className="Logocontainer"> <img src="/Logo.svg" alt="Italian Trulli"/>
-	
+		<Link href="/index" >
+			<div className="item">		<div className="Logocontainer"> <img src="/Logo.svg" alt="Italian Trulli"/>
+		
 			</div></div>
+		</Link>
 			<div className="item"><MenuIconnectLink/></div>
 		</div>
 		<style jsx>{`

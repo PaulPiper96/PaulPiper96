@@ -35,11 +35,9 @@ export default function Herotext()
 	</div>
 	
 	<div className="Container" id="unscreenme">
-		 <p className="Lookingforintern">I am currently studying in Germany and looking for an  <div id="blue"> internship</div> </p> 
+		 <div className="Lookingforintern">I am currently studying in Germany and looking for an  <div id="blue"> internship</div> </div> 
 		 <div className="Abouts">
-		 
-		 
-		
+
 		  <Link href="/Eigenprojekt" >
 		 <div className="Whatyouwannaknow">About my Work</div>
 	</Link>
@@ -69,7 +67,7 @@ z-index: -1;
 .Abouts
 {
 z-index: 3;
-margin-top:-4%;
+margin-top:14%;
 display:grid;
 grid-template-columns: 50% 50%;
 }
@@ -155,13 +153,49 @@ font-family: Sk-Modernist Mono ;
 {
 #unscreenme
 {
-display:none;
+display:grid;
+margin-top: 80%;
 }
 .Container
 {
 z-index: 3;
 margin-left: 5%;
 }
+
+@media screen and (max-width: 450px) 
+{
+	#unscreenme
+	{
+	display:grid;
+	margin-top: 150%;
+	}
+
+	.Lookingforintern
+{
+z-index: 3;
+margin-top: 0%;
+padding: 0.5%;
+font-size:90%;
+font-family: Franklin Gothic Book;
+
+letter-spacing:2px;
+}
+.Whatyouwannaknow
+{
+text-decoration: none;
+display: inline-block;
+color:inerhit;
+margin-left: 5%;
+font-size:50%;
+font-family:Sk-Modernist Mono;
+letter-spacing: 2px;
+text-align:center;
+transition: font-size 1.5s ease,color 1s ease;
+cursor: pointer;
+}
+
+}
+
 }
 
 

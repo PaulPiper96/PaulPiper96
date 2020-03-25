@@ -122,7 +122,7 @@ font-weight: demi;
 @media screen and (max-width: 1024px) 
 {
 
-.WrapperExplanation {margin-top:0px;
+.WrapperExplanation {margin-top:100px;
 position: relative;
 background-color: none; 
 height: 600px;
@@ -195,7 +195,7 @@ font-weight: demi;
 {
 .WrapperExplanation 
 {
-margin-top:-100px;
+margin-top:50px;
 position: relative;
 height: 600px;
 width: 80%;

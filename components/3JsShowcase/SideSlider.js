@@ -9,19 +9,7 @@ export default function SideSlider()
 	
 	useEffect(() => {
 	
-		window.addEventListener("scroll", e => {
-			
-			const myBar=e.target.getElementsByClassName("wrapperSlider").item(0);
-			if(window.scrollY>100)
-			{
-				myBar.style.marginLeft= "10px";
-				myBar.classList.add("sticky");
-			
-			}
-			
-			
-		}
-		);
+
   });	
 	
 function ScrollmeTotheMoon(e)
