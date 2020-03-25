@@ -10,7 +10,7 @@ export default function Index() {
 			
 	
 		const untendingsi = document.getElementById("__next-prerender-indicator");
-		untendingsi.style.backgroundColor = "none";
+
 	
 		
 			if(window.innerWidth >= 2000){alert("This website isnt opitimzied for 4k yet please change the zoom in your browser or consider another screen");}
