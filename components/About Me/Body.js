@@ -654,7 +654,7 @@ export default function Herotext()
 .CloseContainer
 {
 	cursor: pointer;
-	background-image: url("/Aboutme/ClosingSymbol.svg");
+	background-image: url("/AboutMe/ClosingSymbol.svg");
 	position: relative;
 	float: right;
 	margin-left:75%;

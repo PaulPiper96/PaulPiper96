@@ -130,6 +130,9 @@ font-weight: none;
 font-size: 25px;
 color: #747474;
 transition: 1.3s;
+-webkit-user-select: none; /* Safari */
+-ms-user-select: none; /* IE 10+ and Edge */
+user-select: none; /* Standard syntax */
 }
 
 .NavigationItem:hover {
