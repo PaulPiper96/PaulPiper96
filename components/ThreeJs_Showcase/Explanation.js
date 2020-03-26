@@ -87,7 +87,7 @@ grid-row-end:3;
 font-family: Sk-Modernist Mono;
 background-repeat: no-repeat;
 background-size:100%;
-background-image: url("/3jsShowcase/ThreejsShowcase.gif");
+background-image: url("/3jsShowcase/ThreejsShowcase_1.gif");
 margin-top: -170px;
 left: 20%;
 background-position:60% 40%;
@@ -160,7 +160,6 @@ grid-row-end:3;
 font-family: Sk-Modernist Mono;
 background-repeat: no-repeat;
 background-size:120%;
-background-image: url("/3jsShowcase/ThreejsShowcase.gif");
 height: 70%;
 left: 0%;
 }
@@ -231,7 +230,6 @@ grid-row-end:3;
 font-family: Sk-Modernist Mono;
 background-repeat: no-repeat;
 background-size:120%;
-background-image: url("/3jsShowcase/ThreejsShowcase.gif");
 height: 70%;
 }
 .Explanationtext

@@ -151,7 +151,7 @@ grid-column-end: 5;
 {
 float: left;
 position: relative;
-z-index: -5;
+z-index: 5;
 margin-top:10%;
 height: 150px;
 width:1000%;
