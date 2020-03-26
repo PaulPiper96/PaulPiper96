@@ -43,7 +43,7 @@ export default function Herotext()
 	</div> 
 
 	<div className="wrapperMainContent">
-	<div className="wrapperMainText"> <AboutMeText/> 	 <div className="Button" onClick={openContainer}>Show skills</div></div>
+	<div className="wrapperMainText"> <AboutMeText/> 	 <button className="Button" onClick={openContainer}>Show skills</button></div>
 		 <div className="aboutletters">ABOUT </div> 
 		<div className="leftwrapperBild">
 		 	<div className="MyImageContainer"></div>
@@ -63,13 +63,14 @@ export default function Herotext()
 {
 .Button
 {
+	display: inline;
 	position: relative;
 	z-index: 5;
 	border-radius: 35px;
-	padding: 20px;
-	width: 150px;
-	height: 30px;
-	text-align:center;
+	padding: 0px;
+	width: 170px;
+	height: 40px;
+	text-align:top;
 	font-family: Sk-Modernist;
 	font-weight: bold;
 	background-color: #ffd766;
@@ -82,8 +83,12 @@ export default function Herotext()
 	margin-left: 0%;
 	color: #949494;
 	cursor: pointer;
-	transition: 1s;	
+	transition: 1s;
+	border: none;
+	line-height: -100px;
 }
+
+
 
 
 .Button:hover
@@ -205,7 +210,7 @@ export default function Herotext()
 	position:absolute;
 	z-index: 5;
 	display: none;
-	height: 800px;
+	height: 100vh;
 	width: 102vw;
 	margin-left: 50%;
 	background-color:  #ffcd2c;
@@ -334,22 +339,25 @@ export default function Herotext()
 }
 .Button
 {
-	width: 140px;
-	height: 20px;
+	display:block;
+	width: 170px;
+	height: 60px;
 	text-align:center;
 	font-family: Sk-Modernist;
 	font-weight: bold;
 	background-color: #ffd766;
-	font-size: 18px;
+	font-size: 20px;
 	grid-column-start: 2;
 	grid-column-end:2;
 	grid-row-start: 3;
 	grid-row-end: 3;
-	margin-top: 60px;
-	margin-left: -5%;
+	margin-top: 50px;
+	margin-left: 0%;
 	color: #949494;
 	cursor: pointer;
-	transition: 1s;	
+	transition: 1s;
+	padding: 0px;
+	line-height: -100px;
 }
 .MyImageContainer
 {
@@ -413,8 +421,7 @@ export default function Herotext()
 	position:absolute;
 	z-index: 5;
 	display:none;
-	height:1000px;
-	width: 102vw;
+	width: 100vw;
 	margin-left: 50%;
 	background-color:  #ffcd2c;
 	grid-template-columns:  5% 45% 45% 5%;
@@ -494,16 +501,7 @@ export default function Herotext()
 
 @media screen and (max-width: 450px) 
 {
-	.wrapperMainContent
-	{
-		position: relative;
-		z-index: 1;
-		display: grid;
-		height: 800px;
-		grid-template-columns:  2% 96% 2%;;
-		grid-template-rows: 60% 40%;
-		font-size: 1em;
-	}
+
 	.CircleimageEins
 {
 	position: relative;
@@ -539,6 +537,7 @@ export default function Herotext()
 	grid-row-end: 2;
 	text-align: bottom;
 	margin-top: -5%;
+	margin-left: 55px;
 }
 
 .MyImageContainer
@@ -558,7 +557,7 @@ export default function Herotext()
 }
 .leftwrapperBild
 {
-	margin-left:70px;
+	margin-left:40px;
 	margin-top: 0px;
 	position: relative;
 	z-index: 1;
@@ -569,13 +568,15 @@ export default function Herotext()
 	grid-row-end: 1;
 	grid-template-columns:  5% 45% 45% 5%;
 	grid-template-rows: 5% 90% 5%;
-	height: 100%;
-	width: 300px;
+	height:90%;
+	width: 250px;
 }
 .Button
+
 {
+	display:block;
 	width: 140px;
-	height: 20px;
+	height: 40px;
 	text-align:center;
 	font-family: Sk-Modernist;
 	font-weight: bold;
@@ -589,7 +590,10 @@ export default function Herotext()
 	margin-left: 0%;
 	color: #949494;
 	cursor: pointer;
-	transition: 1s;	
+	transition: 1s;
+	padding: 0px;
+	line-height: -100px;
+	
 }
 
 
@@ -600,8 +604,8 @@ export default function Herotext()
 	position:absolute;
 	z-index: 5;
 	display:none;
-	height:1200px;
-	width: 102vw;
+	height:1400px;
+	width: 100vw;
 	margin-left: 50%;
 	background-color:  #ffcd2c;
 	grid-template-columns:  5% 90% 5%;
@@ -653,8 +657,8 @@ export default function Herotext()
 	background-image: url("/Aboutme/ClosingSymbol.svg");
 	position: relative;
 	float: right;
-	margin-left:80%;
-	margin-top:740px;
+	margin-left:75%;
+	margin-top:830px;
 	background-color:none;
 	width: 60px;
 	height: 60px;
@@ -684,8 +688,9 @@ export default function Herotext()
 {
 	.Button
 	{
+		display:block;
 		width: 140px;
-		height: 20px;
+		height: 40px;
 		text-align:center;
 		font-family: Sk-Modernist;
 		font-weight: bold;
@@ -696,10 +701,12 @@ export default function Herotext()
 		grid-row-start: 3;
 		grid-row-end: 3;
 		margin-top: 50px;
-		margin-left: 15%;
+		margin-left: 0%;
 		color: #949494;
 		cursor: pointer;
-		transition: 1s;	
+		transition: 1s;
+		padding: 0px;
+		line-height: -100px;
 	}
 }
 `}</style>
