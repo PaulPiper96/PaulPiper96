@@ -98,7 +98,7 @@ export default function Herotext()
 {
 	position: relative;
 	z-index: 1;
-	background-image: url("/Aboutme/circlePortrait.png");
+	background-image: url("/AboutMe/circlePortrait.png");
 	background-color: none;
 	grid-column-start: 2;
 	grid-column-end:4;
@@ -253,7 +253,7 @@ export default function Herotext()
 .CloseContainer
 {
 	cursor: pointer;
-	background-image: url("/Aboutme/ClosingSymbol.svg");
+	background-image: url("/AboutMe/ClosingSymbol.svg");
 	position: relative;
 	float: right;
 	margin-left:85%;
@@ -355,7 +355,7 @@ export default function Herotext()
 {
 	position: relative;
 	z-index: 1;
-	background-image: url("/Aboutme/circlePortrait.png");
+	background-image: url("/AboutMe/circlePortrait.png");
 	grid-column-start:0;
 	grid-column-end:0;
 	grid-row-start:2;
@@ -461,7 +461,7 @@ export default function Herotext()
 .CloseContainer
 {
 	cursor: pointer;
-	background-image: url("/Aboutme/ClosingSymbol.svg");
+	background-image: url("/AboutMe/ClosingSymbol.svg");
 	position: relative;
 	float: right;
 	margin-left:85%;
@@ -545,7 +545,7 @@ export default function Herotext()
 {
 	position: relative;
 	z-index: 1;
-	background-image: url("/Aboutme/circlePortrait.png");
+	background-image: url("/AboutMe/circlePortrait.png");
 	grid-column-start:0;
 	grid-column-end:0;
 	grid-row-start:2;
@@ -650,7 +650,7 @@ export default function Herotext()
 .CloseContainer
 {
 	cursor: pointer;
-	background-image: url("/Aboutme/ClosingSymbol.svg");
+	background-image: url("/AboutMe/ClosingSymbol.svg");
 	position: relative;
 	float: right;
 	margin-left:80%;

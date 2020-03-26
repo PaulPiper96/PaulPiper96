@@ -6,12 +6,24 @@ export default function SideSlider()
 {
 	
 	function ScrollmeTotheMoon(e)
-	{	if (e.target.id== "zero"){window.scroll(0,0);}
+	{	
+		if(window.innerWidth <=400)
+		{
+			if (e.target.id== "zero"){window.scroll(0,0);}
+		else if (e.target.id== "one"){window.scroll(0,500);}
+	 	else if (e.target.id== "two"){window.scroll(0,1000);}
+	 	else if (e.target.id== "three"){window.scroll(0,1600);}
+	 	else if (e.target.id== "four"){window.scroll(0,2200);}
+		}
+		else if (window.innerWidth >=400){
+		if (e.target.id== "zero"){window.scroll(0,0);}
 		else if (e.target.id== "one"){window.scroll(0,900);}
 	 	else if (e.target.id== "two"){window.scroll(0,1700);}
 	 	else if (e.target.id== "three"){window.scroll(0,2200);}
 	 	else if (e.target.id== "four"){window.scroll(0,2900);}
 	 else {console.log("SideSliderError: Out of Bounds")}
+	}
+
 	}
 	 return ( 
 		 
