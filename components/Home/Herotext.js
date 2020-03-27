@@ -25,7 +25,7 @@ export default function Herotext()
 		<div className="Hello"> <div className="Circleclasss"><svg height="100%" width="100%">
 		 <circle cx="270" cy="30" r="25" strokeWidth="3" fill="#ffcd2c" />
 		 </svg> </div> 
-	Hello, my Name is</div>
+	Hello, my name is</div>
 		 
 		 
 	<div className="Paul">	<div className="Circleclasss"><svg height="100%" width="100%">
