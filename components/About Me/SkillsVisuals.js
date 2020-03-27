@@ -16,9 +16,9 @@ export default function SkillsVsiauls()
 
             - Various 3D Software -> Maya, Substance Painter, Element 3D, Blender (currently learning), Substance Designer  <br/><br/>
 
-            - Camera handling for either Filmmaking or Photography, also basic knowledge about Analouge, but digital most comfortable (Sony Alpha series preferred)<br/><br/>
+            - Camera handling for either Filmmaking or Photography, also basic knowledge about analogue, but digital most comfortable (Sony Alpha series preferred)<br/><br/>
 
-            - Motion Graphics -> Premiere, After Effects, DaVinci Resolve, Avid Media Composer (but not super comfortable)
+            - Motion Graphics -> Premiere Pro, After Effects, DaVinci Resolve, Avid Media Composer (but not super comfortable)
             
              
          </div>

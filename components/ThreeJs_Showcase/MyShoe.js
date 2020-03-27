@@ -10,10 +10,10 @@ export default function Explanation()
 		 	<div className="Überschrift"> My Shoe</div>
 		 	<div className="GelberbehindBalken"></div>
 		 <div className="GifContainer"> </div>
-		 <div className="Explanationtext">In the end i decided thati also wanted a little more tangible.
+		 <div className="Explanationtext">In the end I also felt like doing something more tangible.
 		 <br/>
 		 <br/>
-			So i orderd my own "Air Force One", got an Airbrush with some special colors to work on leather and designed my own Shoe.
+			So i ordered my own <strong>Air Force One</strong> , got an Airbrush, some special colors and designed my own shoe.
 		 </div>
 		</div>
 

@@ -9,10 +9,11 @@ export default function Explanation()
 		 	<div className="Überschrift"> Explanation</div>
 		 	<div className="GelberbehindBalken"></div>
 		 <div className="GifContainer"> </div>
-		 <div className="Explanationtext">In 2018 and 2019 my university gave each student the oppurnity to pick one  random project they liked and work on it for one year. I decided to code an online Sneaker-Customizer. <br/>
+		 <div className="Explanationtext">In 2018 and 2019 my university gave each student the opportunity to freely pick one project they 
+		 liked and work on it for one year. I decided to code an online-customizer for sneakers. <br/>
 
 		 <br/>
-		 The first version had some issues due to the fact that i wasn‘t skilled enough with three js at that Point. Therfore i build a second one, wich worked way better. </div>
+		 The first version had some issues due to the fact that I wasn‘t skilled enough with "three-js" at that Point. So I build a second one, which worked a lot better. </div>
 		 </div>
 	
 		

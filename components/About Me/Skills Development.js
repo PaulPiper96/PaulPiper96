@@ -10,7 +10,7 @@ export default function SkillsVsiauls()
 	
 	 return ( 
 	<div>
-        <div className="Visuals">Development</div>
+        <div className="Visuals">DEVELOPMENT</div>
 		 <div className="Fulltext">
             - React (Next js), Javascript, Html, Css.... <br/><br/>
 

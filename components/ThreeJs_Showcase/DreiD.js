@@ -10,11 +10,11 @@ export default function Explanation()
 		 	<div className="Überschrift"> Animation</div>
 		 	<div className="GelberbehindBalken"></div>
 		 <div className="GifContainer"> </div>
-		 <div className="Explanationtext">At this point in time i was fairly new to the world of 3D. I started using Maya just 3 months before.
+		 <div className="Explanationtext">At this point in time I was fairly new to the world of 3D. I started using Maya just 3 months before.
 		 <br/>
 		 <br/>
-		 Therefore i purchased my Model from Turbosquoid and focused more on the materials.
-		 I started using Mudbox for painting and later on changed to Substance Painter. Everything else was done in Maya.
+		 Therefore,  I purchased my model from Turbosquoid and focused more on the materials.
+		 I started using Mudbox for painting and later on changed to Substance Painter. Anything else was done in Maya.
 		 </div>
 		</div>
 

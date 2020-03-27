@@ -10,7 +10,7 @@ export default function Audio()
 	
 	 return ( 
 	<div>
-        <div className="Visuals">Audio</div>
+        <div className="Visuals">AUDIO</div>
 		 <div className="Fulltext">
             - Protools <br/><br/>
 

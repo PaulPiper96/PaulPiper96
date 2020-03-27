@@ -39,7 +39,7 @@ export default function Herotext()
 		 <div className="Abouts">
 
 		  <Link href="/Eigenprojekt" >
-		 <div className="Whatyouwannaknow">About my Work</div>
+		 <div className="Whatyouwannaknow">About my work</div>
 	</Link>
 		
 		 <Link href="/AboutMe" >

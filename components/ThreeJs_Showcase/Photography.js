@@ -9,8 +9,10 @@ export default function Explanation()
 		 	<div className="Überschrift"> Photography</div>
 		 	<div className="GelberbehindBalken"></div>
 		 <div className="GifContainer"> </div>
-		 <div className="Explanationtext">I also wanted to get some Photos for using them as a Campaign for my Customizer. And since i've used adobes <strong> Lightroom  </strong> a lot in the past I decided to switch it up and and focus a little more on editing my photos with <strong> Photoshop </strong>  <br/> <br/>
-		 Camer; Sony 7r2/7s <br/>
+		 <div className="Explanationtext">I also wanted to get some photos for using them as a campaign. And since I've used Adobes <strong>
+			  Lightroom  </strong> a lot in the past I decided to switch it up and focus a little more on editing my photos with 
+			  <strong> Photoshop </strong>  <br/> <br/>
+		 Camera; Sony 7r2/7s <br/>
 		 Lens: 85mm 1.8 <br/>
 		 Model: Annika Svea Marie Frost
 		 </div>
