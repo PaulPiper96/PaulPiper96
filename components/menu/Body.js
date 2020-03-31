@@ -22,7 +22,11 @@ const HoverOver =(e) =>
 	<div>
 		<div className="wrapper">
 		<div className="TypoContainer">
+
+		<Link href="/Contact" >
 			<div className="SchriftElement"><div className="hoverme"/><div className="ActualFont">Contact</div></div>
+			</Link>
+
 			<Link href="/Eigenprojekt" >
 				<div className="SchriftElement"><div className="hoverme"/><div className="ActualFont">Work</div></div>
 			</Link>
@@ -30,6 +34,7 @@ const HoverOver =(e) =>
 			<Link href="/AboutMe" >
 			<div className="SchriftElement"><div className="hoverme"/><div className="ActualFont">Me</div></div>
 			</Link>
+
 		</div>
 			<div className="blueRechteck"></div>
 			<div className="ImageContainer"></div>
